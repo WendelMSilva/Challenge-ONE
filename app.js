@@ -20,6 +20,6 @@ function exibrirAmigo(){
 
 function sortearAmigo(){
 
-    const amigoSorteado = listaAmigos[Math.floor(Math.random() * listaAmigos.length)];
+    const amigoSorteado =  "AMIGO SORTEADO :" +  listaAmigos[Math.floor(Math.random() * listaAmigos.length)];
     document.getElementById("resultado").innerHTML = amigoSorteado;
 }
